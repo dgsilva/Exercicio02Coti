@@ -7,7 +7,7 @@ import repositories.ClienteRepositoryTXT;
 public class Program {
 	
 	public static void main(String[] args) {
-		ClienteController clienteController = new ClienteController(new ClienteRepositoryCSV());
+		ClienteController clienteController = new ClienteController(new ClienteRepositoryTXT());
 		
 		clienteController.realizarExportacao();
 	}
