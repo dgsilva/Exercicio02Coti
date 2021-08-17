@@ -20,7 +20,7 @@ public class ClienteInput {
 		String value = JOptionPane.showInputDialog("Entre  com NOME do cliente:");
 
 		if (value.trim().length() <= 3)
-			throw new Exception("O NOME o cliente deve conter no minimo 6 caracteres.");
+			throw new Exception("O NOME o cliente deve conter no mais que 3 caracteres.");
 		return value;
 	}
 	
